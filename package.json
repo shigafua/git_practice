@@ -1,0 +1,23 @@
+{
+  "name": "git_practice",
+  "version": "1.0.0",
+  "description": "https://shigafua.github.io/git_practice/index.html",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shigafua/git_practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shigafua/git_practice/issues"
+  },
+  "homepage": "https://github.com/shigafua/git_practice#readme",
+  "dependencies": {
+    "electron": "^1.8.4"
+  }
+}
