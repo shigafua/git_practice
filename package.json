@@ -2,9 +2,10 @@
   "name": "git_practice",
   "version": "1.0.0",
   "description": "https://shigafua.github.io/git_practice/index.html",
-  "main": "app.js",
+  "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
   },
   "repository": {
     "type": "git",
@@ -17,7 +18,9 @@
     "url": "https://github.com/shigafua/git_practice/issues"
   },
   "homepage": "https://github.com/shigafua/git_practice#readme",
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
+    "babel-preset-env": "^1.6.1",
     "electron": "^1.8.4"
   }
 }
